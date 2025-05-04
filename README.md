@@ -43,11 +43,10 @@ cd fastapi-sveltekit
 Go to the frontend directory, and install all the dependencies.
 
 ```bash
-cd fastapi-sveltekit
 npm install
 ```
 
-### 3. Backend Setuo
+### 3. Backend Setup
 
 Go to the backend directory 
 
@@ -58,7 +57,7 @@ cd backend
 Make a python virtual environtment
 
 ```bash
-python -m venv your-virtual-environment-name
+python -m venv venv
 ```
 
 Activate the virtual environment
@@ -75,7 +74,7 @@ pip install -r requirements.txt
 
 ### 4. Run the Frontend and the backend
 
-Run the sveltekit for development, can be accessed at port 5173
+Run the sveltekit for development
 
 ```bash
 npm run dev
