@@ -73,6 +73,21 @@ Install all the requirements (backend/requirements.txt)
 pip install -r requirements.txt
 ```
 
+### 4. Run the Frontend and the backend
+
+Run the sveltekit for development, can be accessed at port 5173
+
+```bash
+npm run dev
+```
+
+Run the FastAPI server
+
+```bash
+uvicorn main:app --reload
+```
+
+#### Everything is Set
 
 
 
