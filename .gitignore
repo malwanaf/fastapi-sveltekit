@@ -1,0 +1,4 @@
+fastapi-sveltekit\.gitignore
+backend\virtual-environment
+backend\__pycache__
+backend\model\__pycache__
