@@ -1,8 +1,29 @@
 # FastAPI + SvelteKit Boilerplate
 
-A simple boilerplate to kickstart your projects with **FastAPI** as the backend and **SvelteKit** as the frontend. This setup provides a seamless development experience using modern web technologies.
+Simple boilerplate for machine learning web app with **FastAPI** as the backend and **SvelteKit** as the frontend.
 
 ---
+
+## 🚨 Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+- **Python 3.7+**: For the FastAPI backend
+- **Node.js** (v14.x or later): For the SvelteKit frontend
+- **npm** (comes with Node.js): To manage the frontend dependencies
+
+To check if you have these installed, run the following commands:
+
+```bash
+# Check Python version
+python --version
+
+# Check Node.js version
+node --version
+
+# Check npm version
+npm --version
+```
 
 ## 🚀 Getting Started
 
@@ -13,6 +34,45 @@ Follow these steps to set up and run the project locally.
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/fastapi-sveltekit.git
+git clone https://github.com/malwanaf/fastapi-sveltekit.git
 cd fastapi-sveltekit
 ```
+
+### 2. Frontend Setup
+
+Go to the frontend directory, and install all the dependencies.
+
+```bash
+cd fastapi-sveltekit
+npm install
+```
+
+### 3. Backend Setuo
+
+Go to the backend directory 
+
+```bash
+cd backend
+```
+
+Make a python virtual environtment
+
+```bash
+python -m venv your-virtual-environment-name
+```
+
+Activate the virtual environment
+
+```bash
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+```
+
+Install all the requirements (backend/requirements.txt)
+
+```bash
+pip install -r requirements.txt
+```
+
+
+
+
